@@ -1,0 +1,75 @@
+.our-btn{
+	background-color: whitesmoke!important;
+	border: none;
+	border: 3px solid;
+	border-radius: 3px;
+	font-size: 15px;
+	padding: 6px;
+	font-weight: bold;
+	transition: ease-in(3s) ease-out(1s);
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.6);
+  outline: 0 none;
+}
+
+.our-btn:hover{
+	border: 3px solid black;
+	border-radius: 3px;
+	font-size: 15px;
+	padding: 6px;
+	font-weight: bold;
+	background-color: black!important;
+	color: white;
+}
+
+body{
+	padding: 20px;
+}
+
+#Sh-UR{
+	margin-top: 20px;
+	border: 0.7px solid black;
+	border-radius: 2px;
+	background-color: whitesmoke;
+	padding: 20px;
+	transition: ease-in(3s) ease-out(1s);
+}
+
+#Sh-UR:hover{
+	background-color: black;
+	color: white;
+}
+
+#Sh-UR:hover a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#Sh-UR a{
+	font-size: 16px;
+	text-decoration: none;
+}
+
+#Sh-UR p{
+	font-size: 20px;
+	font-weight: bolder;
+}
